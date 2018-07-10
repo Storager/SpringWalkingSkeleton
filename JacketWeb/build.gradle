@@ -20,8 +20,8 @@ cargo {
     }
 
     local {
-        homeDir = file('C:\\home\\kevinj\\tomcat')
-        configHomeDir = file('C:\\home\\kevinj\\tomcat')
+        homeDir = file('/tmp/tomcat')
+        configHomeDir = file('/tmp/tomcat')
     }
 
     remote {
